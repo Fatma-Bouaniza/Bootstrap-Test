@@ -12,38 +12,31 @@
 <body>
     <h1>bootstrap Grid System</h1>
     <div class="container">
-        <div class="btn-toolbar">
-            <div class="btn-group btn-group">
-                <button class="btn btn-danger text-drak">Danger</button><br><br>
-                <button class="btn btn-success text-drak">Success</button><br><br>
-                <button class="btn btn-outline-warning">Button</button><br><br>
-                </div>
-                <div class="btn-group btn-group">
-                    <button class="btn btn-outline-danger text-drak">Danger</button><br><br>
-                    <button class="btn btn-outline-success text-drak">Success</button><br><br>
-                    <button class="btn btn-outline-warning">Button</button><br><br>
-                    </div>
+        <div class="row bg-dark p-1">
+            <div class="col-8"><button class="btn btn-primary">click</button></div>
+            <div class="col-1"><button class="btn btn-primary">click</button></div>
+            <div class="col-2 mx-3"><button class="btn btn-primary">click</button></div>
         </div>
-      
-        <div class="alert alert-primary d-flex gap-2">
-            <i class="bi bi-info-circle-fill"></i>
-           
-            <p class="m-0">Hi, this is an alert message!</p>
+        <div class="row bg-primary p-1 text-center" >
+            <div class="col"><button class="btn btn-dark">click</button></div>
         </div>
-        <div class="row">
-            <div class="col">
-                <div class="bg-primary text-danger">color 1</div> 
-                <div class="bg-secondary text-light">color 2</div>
-                <div class="bg-success text-info">color 3</div>
-                <div class="bg-danger text-primary">color 4</div> 
-                <div class="bg-warning text-drak">color 5</div>
-                <div class="bg-info text-warning">color 6</div>
-                <div class="bg-light text-success">color 7</div> 
-                <div class="bg-dark text-secondary">color 8</div>
-             </div>
-             
-        </div>
+        <div class="row  bg-dark p-1 justify-content-between">
+            <div class="col text-start"><button class="btn btn-primary justify-content-start">click</button></div>
+            <div class="col text-center"><button class="btn btn-primary justify-content-center">click</button></div>
+            <div class="col text-end"><button class="btn btn-primary justify-content-end">click</button></div>
+        </div> 
        
+    </div>
+    <div class="container">
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="asserts/mgs/iphone x.jpg" alt="">
+            <div class="card-body bg-dark">
+                <h5 class="card-title text-warning">iphone x</h5>
+                <p class="card*text text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit .Ipsa unde dolor impedit?</p>
+                <a href="" class="btn btn-danger">See Details</a>
+            </div>
+
+        </div>
     </div>
    
     <!--Bootstrap js-->
